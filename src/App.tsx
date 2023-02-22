@@ -1,14 +1,15 @@
 /* eslint-disable react/jsx-no-undef */
-import React from 'react';
+/* eslint-disable @typescript-eslint/no-unused-vars */
+import React, {ReactNode} from "react";	
 
-import GlobalStyles from './styles/GlobalStyles';
-import Layout from './components/Layout';
+import Layout from "./components/Layout";
+import Global from "../src/styles/GlobalStyles";
 
 function App() {
   return (
     <>
       <Layout />
-      
+      <Global />
     </>
   );
 }
