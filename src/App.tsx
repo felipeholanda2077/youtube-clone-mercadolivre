@@ -3,13 +3,13 @@
 import React, {ReactNode} from "react";	
 
 import Layout from "./components/Layout";
-import Global from "../src/styles/GlobalStyles";
+import GlobalStyles from "../src/styles/GlobalStyles";
 
 function App() {
   return (
     <>
       <Layout />
-      <Global />
+      <GlobalStyles />
     </>
   );
 }
